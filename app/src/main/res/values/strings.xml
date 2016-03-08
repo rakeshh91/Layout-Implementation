@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HW2_RakeshNE</string>
+    <string name="coverPage">Cover Page</string>
+    <string name="task1">Linear Layout</string>
+    <string name="task2">Grid Layout</string>
+    <string name="task3">Calculator Layout</string>
+    <string name="task4">Movie Data</string>
+</resources>

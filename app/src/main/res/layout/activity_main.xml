@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rakesh_ap2016.hw2_rakeshne.MainActivity"
+    android:id="@+id/layoutbackground"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/background"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/pic"
+        android:scaleType="fitXY"
+        android:alpha="0.7"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nametext"
+        android:scaleType="fitXY"
+        android:id="@+id/name"
+        android:layout_marginBottom="94dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/background"
+        android:layout_alignStart="@+id/background" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/androidsubject"
+        android:src="@drawable/androidsubject"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/background"
+        android:layout_alignStart="@+id/background" />
+
+
+</RelativeLayout>
